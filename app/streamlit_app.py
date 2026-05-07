@@ -75,7 +75,6 @@ st.markdown("""
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
 
-* { font-family: 'Plus Jakarta Sans', sans-serif !important; }
 
 /* Main background */
 .stApp { background-color: #F7F7F7; }
@@ -85,10 +84,9 @@ st.markdown("""
     background: #1A1A1A;
     border-right: 1px solid #2D2D2D;
 }
-.material-symbols-rounded, 
-.material-icons,
-span[class*="material-symbols"] {
-    font-family: 'Material Symbols Rounded', 'Material Icons' !important;
+/* Apply custom font to everything EXCEPT icons and svgs */
+*:not(i):not([class*="material-symbols"]):not([data-testid="stIconMaterial"]):not(svg):not(path) {
+    font-family: 'Plus Jakarta Sans', sans-serif !important;
 }
 [data-testid="stSidebar"] * { color: #E0E0E0 !important; }
 [data-testid="stSidebar"] .stRadio label {
