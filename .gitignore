@@ -9,6 +9,5 @@ venv/
 env/
 
 # Ignore heavy data and output folders
-data/
 outputs/
 .ipynb_checkpoints/
