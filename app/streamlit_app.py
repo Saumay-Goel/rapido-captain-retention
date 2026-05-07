@@ -85,6 +85,11 @@ st.markdown("""
     background: #1A1A1A;
     border-right: 1px solid #2D2D2D;
 }
+.material-symbols-rounded, 
+.material-icons,
+span[class*="material-symbols"] {
+    font-family: 'Material Symbols Rounded', 'Material Icons' !important;
+}
 [data-testid="stSidebar"] * { color: #E0E0E0 !important; }
 [data-testid="stSidebar"] .stRadio label {
     color: #C8C8C8 !important;
