@@ -291,11 +291,11 @@ div[data-testid="stSelectbox"] p {
 # ================================================
 @st.cache_data
 def load_data():
-    return pd.read_csv('captains_scored.csv')
+    return pd.read_csv('app/captains_scored.csv')
 
 @st.cache_resource
 def load_model():
-    return joblib.load('churn_model_final.pkl')
+    return joblib.load('app/churn_model_final.pkl')
 
 df = load_data()
 model = load_model()
