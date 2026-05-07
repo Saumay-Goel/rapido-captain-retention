@@ -21,7 +21,7 @@
 
 > **"I built an unsolicited churn model for Rapido captains using public research data. Here's what I found."**
 
-[ Live Demo](#) · [ Notebooks](#-project-structure) · [ Results](#-key-eda-findings) · [ ROI](#-business-impact)
+[ Live Demo](https://rapido-captain-retention-v68hsrmnzd52p3app4we6xl.streamlit.app) · [ Notebooks](#-project-structure) · [ Results](#-key-eda-findings) · [ ROI](#-business-impact)
 
 </div>
 
