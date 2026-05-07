@@ -1,0 +1,14 @@
+# Mac system files
+.DS_Store
+
+# Python cache and environments
+__pycache__/
+*.pyc
+.env
+venv/
+env/
+
+# Ignore heavy data and output folders
+data/
+outputs/
+.ipynb_checkpoints/
