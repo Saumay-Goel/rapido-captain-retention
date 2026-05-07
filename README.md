@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/rapido_logo.webp" width="180" alt="Rapido Logo"/>
+<img src="assets/rapido_logo.png" width="180" alt="Rapido Logo"/>
 
 # Rapido Captain Churn Predictor
 
