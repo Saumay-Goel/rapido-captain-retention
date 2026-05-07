@@ -291,7 +291,7 @@ Rank Feature SHAP Value Direction
 
 ```bash
 # Clone repo
-git clone https://github.com/YOURUSERNAME/rapido-captain-churn
+https://github.com/Saumay-Goel/rapido-captain-retention.git
 cd rapido-captain-churn
 
 # Install dependencies
