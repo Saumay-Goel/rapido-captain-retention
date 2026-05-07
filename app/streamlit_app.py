@@ -4,6 +4,7 @@ import numpy as np
 import joblib
 import plotly.express as px
 import plotly.graph_objects as go
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # ================================================
 # CONFIG
@@ -291,11 +292,11 @@ div[data-testid="stSelectbox"] p {
 # ================================================
 @st.cache_data
 def load_data():
-    return pd.read_csv('app/captains_scored.csv')
+    return pd.read_csv(os.path.join(BASE_DIR, 'captains_scored.csv'))
 
 @st.cache_resource
 def load_model():
-    return joblib.load('app/churn_model_final.pkl')
+    return joblib.load(os.path.join(BASE_DIR, 'churn_model_final.pkl'))
 
 df = load_data()
 model = load_model()
